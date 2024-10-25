@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:key="sms_service"
+        android:title="@string/sms_service"
+        android:defaultValue="false" />
+
+    <Preference
+        android:key="sms_time"
+        android:title="@string/sms_time"
+        android:summary="08:00" />
+
+    <EditTextPreference
+        android:key="sms_message"
+        android:title="SMS-melding"
+        android:summary="@string/sms_message"
+        android:defaultValue="Gratulerer med dagen!" />
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Bursdags Buddy</string>
+
+    //Main activity
+    <string name="add_person">Legg til person</string>
+    <string name="settings">Innstillinger</string>
+
+    //Add user activity
+    <string name="name">Navn</string>
+    <string name="phone">Telefonnummer</string>
+    <string name="birthdate">Fødselsdato</string>
+    <string name="add">Legg til</string>
+
+    //Settings fragment
+    <string name="sms_service">Aktiver SMS-tjeneste</string>
+    <string name="sms_time">Når skal SMS sendes?</string>
+    <string name="sms_message">SMS-melding</string>
+
+</resources>

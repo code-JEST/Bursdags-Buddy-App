@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="12dp"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="12dp"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editTextBirthdate"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="12dp"
+        android:hint="@string/birthdate"
+        android:focusable="false"
+        android:onClick="showDatePickerDialog"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="126dp"
+        android:layout_height="56dp"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:text="@string/add" />
+
+</LinearLayout>

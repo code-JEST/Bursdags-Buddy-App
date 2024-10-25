@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mappe2" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorOnPrimary">@color/my_light_on_primary</item>
+    </style>
+
+    <style name="Theme.Mappe2" parent="Base.Theme.Mappe2" />
+</resources>
